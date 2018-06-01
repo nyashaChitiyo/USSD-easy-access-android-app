@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZimMobo</string>
+    <string name="title_activity_airtime__menu">Airtime_Menu</string>
+    <string name="title_activity_transfer__airtime">Transfer_Airtime</string>
+    <string name="title_activity_call__me__back">Call_Me_Back</string>
+    <string name="title_activity_send__money">Send_Money</string>
+    <string name="title_activity_make__payment">Make_Payment</string>
+</resources>

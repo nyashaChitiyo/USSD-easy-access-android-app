@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nyasha.zimmobo">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".airtime.Airtime_Menu"
+            android:label="@string/title_activity_airtime__menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".airtime.Transfer_Airtime"
+            android:label="@string/title_activity_transfer__airtime"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".call_me_back.Call_Me_Back"
+            android:label="@string/title_activity_call__me__back"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".send_money.Send_Money"
+            android:label="@string/title_activity_send__money"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.Make_Payment"
+            android:label="@string/title_activity_make__payment"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
