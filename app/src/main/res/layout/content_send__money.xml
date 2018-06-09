@@ -23,7 +23,7 @@
         android:textColorHint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:hint="Enter Amount"
-        android:inputType="phone"
+        android:inputType="number"
         android:ems="10"
         android:id="@+id/amount" />
     <Space

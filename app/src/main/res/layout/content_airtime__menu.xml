@@ -23,8 +23,9 @@
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginTop="16dp"
-        android:onClick="gotoTransferAirtime"
-        android:text="Transfer Airtime" />
+        android:onClick="gotoAirtimeCredit"
+        android:text="Airtime Credit" />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="10dp" />
@@ -35,17 +36,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginTop="16dp"
+        android:onClick="buyAirtime"
         android:text="Buy Airtime" />
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="10dp" />
-    <Button
-        android:id="@+id/send_airtime"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginTop="16dp"
-        android:text="Send Airtime"/>
 
 </LinearLayout>
